@@ -42,18 +42,54 @@ header > img {
 ul{ 
     list-style-type: none;
     margin:0;
-    padding: 0;
-    overflow: hidden;
-    background-color: rgb(13, 63, 224)
+    padding: 1rem;
+    background-color: rgb(13, 63, 224);
+    width:100%;
+    text-align: center;
 }
 li {
-    float:left;
-    border-right: 1px solid #bbb;
+    display:inline-block;
+    text-decoration: none;
+    font-size: 1.5rem; 
 }
 li a{
     display: block;
-    color: white;
     text-align: center;
-    padding: 1.2rem, 
+    padding: 1.2rem; 
+    color:white;
     text-decoration: none;
+}
+li a:hover{
+    background-color: green;
+}
+.bannerimg{
+    width:100%;
+    height:50%;
+}
+.weathersummary{
+    width:33%;
+    height:10%;
+    background-color:rgb(73, 161, 51, 1);
+    position:relative;
+    left: 0.5rem;
+    top:-30rem;
+    display:inline-block;
+    margin: 0;
+    padding: 1.2rem;
+    vertical-align: middle;
+    border:0.5rem solid rgb(11, 46, 2);
+}
+h3 {
+    text-align: center;
+}
+
+.label {
+    text-align: right;
+    color:white; 
+    padding-right: 50%;    
+}
+.value {
+    text-align:left;
+    color:yellow;
+    padding-left:55%;
 }
