@@ -68,14 +68,14 @@ li a:hover{
 }
 .weathersummary{
     width:33%;
-    height:10%;
+    height:auto;
     background-color:rgb(73, 161, 51, 1);
     position:relative;
-    left: 0.5rem;
-    top:-30rem;
+    left: 2%;
+    top:-25rem;
     display:inline-block;
     margin: 0;
-    padding: 1.2rem;
+    padding:0;
     vertical-align: middle;
     border:0.5rem solid rgb(11, 46, 2);
 }
@@ -86,10 +86,47 @@ h3 {
 .label {
     text-align: right;
     color:white; 
-    padding-right: 50%;    
+    padding-right: 50%; 
+    line-height: 40%;
 }
 .value {
     text-align:left;
     color:yellow;
     padding-left:55%;
+    line-height: 30%;
+    margin-top: -9%;
+}
+.forecast{
+    border: 0.5rem solid black;
+    width:50%;
+    height:auto;
+    position:relative;
+    background-color: rgb(73, 161, 51, 1);
+    left:50%;
+    top: -25rem;
+}
+table, th, td{
+    border:1px solid black;
+    width:100%;
+}
+footer{
+    text-align: center;
+    border:0.3% solid black;
+    background-color: powderblue;
+}
+abside {
+    width:100%;
+    background-color: lightblue;
+    border:0.3% solid white;
+}
+.bottom-img {
+    width: 35%;
+    height: auto;
+    vertical-align: left;   
+}
+.information{
+    width: 35%;
+    height: auto;
+    vertical-align: middle;   
+
 }
