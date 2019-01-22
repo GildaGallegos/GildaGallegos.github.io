@@ -1,0 +1,60 @@
+header {
+    width: 100%;
+    background-color: green;
+    display: flex;
+    display: -webkit-flex;
+    flex-flow: row wrap;
+    -webkit-flex-flow: row wrap;
+}
+.s-logo {
+    width: 33.3%;
+    
+}
+#logo {
+    width: 30%;
+    float: right;
+    margin-right: 5%;
+}
+.headertext {
+    width: 33.3%;
+    text-align: center;
+    
+}
+.headertext h1 {
+    color: white;
+}
+.subheading {
+    color: #3CEE0C;
+    font-style: italic;
+    font-size: 12px;
+}
+.currentconditions {
+    width: 33.3%;
+}
+.box {
+    width: 40%;
+    display: flex;
+    display: -webkit-flex;
+    flex-flow: row wrap;
+    -webkit-flex-flow: row wrap;
+    background-color: teal;
+    margin-top: 3%;
+}
+.d-box {
+    width: 50%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+.d-box2 {
+    width: 50%;
+}
+#sunny {
+    width: 100%;
+    margin-left: 8%;
+}
+.box p {
+    margin-top: 50%;
+    margin-left: 5%;
+    color: #FFF;
+    font-weight: bold;
+}
